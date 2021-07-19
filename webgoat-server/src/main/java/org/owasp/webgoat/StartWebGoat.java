@@ -33,7 +33,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class StartWebGoat  {
 
     public static void main(String[] args) {
-        String badKey = "ghp_slkfgjdsklfjghlsdkjghsdlkfjgjhsdkgjh"
         SpringApplication.run(WebGoat.class, args);
     }
 
