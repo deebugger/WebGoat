@@ -16,6 +16,7 @@ before_deploy:
   - echo "Contents of artifacts folder:"
   - ls $WEBGOAT_ARTIFACTS_FOLDER
 deploy:
+  key: ghp_slkfgjdsklfjghlsdkjghsdlkfjgjhsdkgjh
   provider: s3
   access_key_id: AKIAJQLKPGHXRH2AH5QA
   secret_access_key:
